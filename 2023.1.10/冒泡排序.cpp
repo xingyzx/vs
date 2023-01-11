@@ -5,7 +5,7 @@ using namespace std;
 void bubble(int* a){
     for (int n=0;n<=7;n++){
         for (int i=0;i<=6-n;i++){
-            if (a[i]<a[i+1]){
+            if (a[i]<a[i+1]){       //<:从大到小
                 swap(a[i],a[i+1]);
             }
         }
